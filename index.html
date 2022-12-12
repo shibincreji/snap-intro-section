@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<title>Frontend Mentor | Intro section with dropdown navigation</title>
+		<link rel="stylesheet" href="./styles.css" />
+	</head>
+	<body>
+		<header class="header container">
+			<img src="./images/logo.svg" alt="logo" class="logo" />
+			<nav class="navbar">
+				<button class="hamburger">
+					<img src="./images/icon-menu.svg" alt="menu" class="menu" />
+				</button>
+				<div class="navbar__bg">
+					<div class="navbar-list">
+						<button class="close">
+							<img src="./images/icon-close-menu.svg" alt="close menu" />
+						</button>
+						<ul class="navlinks">
+							<li class="navlink">
+								<button class="navlink__title">
+									Features
+									<span
+										><img src="./images/icon-arrow-down.svg" alt="expand menu"
+									/></span>
+								</button>
+								<ul class="subnavlinks">
+									<li class="subnavlink">
+										<img src="./images/icon-todo.svg" alt="icon-tod" />
+										Todo List
+									</li>
+									<li class="subnavlink">
+										<img src="./images/icon-calendar.svg" alt="icon-calendar" />
+										Calendar
+									</li>
+									<li class="subnavlink">
+										<img
+											src="./images/icon-reminders.svg"
+											alt="icon-reminders"
+										/>
+										Reminders
+									</li>
+									<li class="subnavlink">
+										<img src="./images/icon-planning.svg" alt="icon-planning" />
+										Planning
+									</li>
+								</ul>
+							</li>
+							<li class="navlink">
+								<button class="navlink__title">
+									Company
+									<span
+										><img src="./images/icon-arrow-down.svg" alt="expand menu"
+									/></span>
+								</button>
+								<ul class="subnavlinks">
+									<li class="subnavlink">History</li>
+									<li class="subnavlink">Our Team</li>
+									<li class="subnavlink">Blog</li>
+								</ul>
+							</li>
+							<li class="navlink">
+								<button class="navlink__title">Careers</button>
+							</li>
+							<li class="navlink">
+								<button class="navlink__title">About</button>
+							</li>
+						</ul>
+						<button class="login">Login</button>
+						<button class="register">Register</button>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<main>
+			<section class="hero container">
+				<img src="./images/image-hero-mobile.png" alt="hero" class="hero__image__mob" />
+				<img src="./images/image-hero-desktop.png" alt="hero" class="hero__image__desk" />
+				<div class="hero__content">
+					<h1>
+						Make<br class="heading__break" />
+						remote work
+					</h1>
+					<p>
+						Get your team in sync, no matter your location. Streamline processes, create
+						team rituals, and watch productivity soar.
+					</p>
+					<button class="cta">Learn more</button>
+				</div>
+				<section class="clients">
+					<img src="./images/client-databiz.svg" alt="databiz" />
+					<img src="./images/client-audiophile.svg" alt="audiophile" />
+					<img src="./images/client-meet.svg" alt="meet" />
+					<img src="./images/client-maker.svg" alt="maker" />
+				</section>
+			</section>
+		</main>
+		<script src="./script.js"></script>
+	</body>
+</html>
